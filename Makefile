@@ -16,3 +16,8 @@ install:
 
 uninstall:
 	${PYTHON} -m pip uninstall --yes jitterbit-pkg-bbrummer
+
+clean:
+	rm -rf dist/
+	rm -rf *.egg-info/
+	rm -rf build/
